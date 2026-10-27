@@ -1,8 +1,11 @@
 //IMPORTS
 
+import Mailbox from "./components/mailBox"
 import Soma from "./components/soma"
 import UserCard from "./components/userCard"
 import UserGreeting from "./components/userGreeting"
+
+
 
 export default function App() {
   //LOGICA
@@ -14,6 +17,11 @@ export default function App() {
     ultimo: "Menezes",
     avatarUrl: avatarURL,
   }
+
+  const messages = [
+    { id: "1", text: "Reunião às 10h" },
+    { id: "2", text: "Entrega do exercício" },
+  ]
   return (
     //HTML
     <>
@@ -22,6 +30,14 @@ export default function App() {
         <UserGreeting />
         <UserCard user={user} onSelect={(userId) => console.log(userId)} />
         <Soma a={10} b={3} />
+
+        <div className="flex flex-col gap-4 p-6">
+          {/* Com mensagens → "Tens 2 mensagens por ler." */}
+          <Mailbox unreadMessages={messages} />
+
+          {/* Sem mensagens → só o título, sem o 0 */}
+          <Mailbox unreadMessages={[]} />
+        </div>
       </section>
     </>
   )
