@@ -1,0 +1,87 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.4,
+    "editor.rulers": [
+        120,
+        160
+    ],
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.activityBar.orientation": "horizontal",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "typescript.preferences.autoImportSpecifierExcludeRegexes": [
+        "@radix-ui",
+        "next/router",
+        "next/dist",
+        "^lucide-react/dist/lucide-react.suffixed$"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "",
+    "symbols.hidesExplorerArrows": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file:///c:/Users/Leandro/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    "glassit.alpha": 220,
+    "git.openRepositoryInParentFolders": "never",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "terminal.integrated.env.windows": {},
+    "console-ninja.featureSet": "Community",
+    "Notes.notesLocation": "c:\\GitHub\\megaFlare\\src\\loaders",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "window.titleBarStyle": "custom",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "codesnap.containerPadding": "0.2em",
+    "workbench.colorTheme": "Light+",
+}
