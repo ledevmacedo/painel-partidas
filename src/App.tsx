@@ -1,12 +1,21 @@
-// 1.Dá limite, cantos arredondados e espaço interior ao cartão.
-// 2. Destaca o destino e reduz o tamanho da informação secundária.
-// 3. Estiliza o botão com hover e um indicador de foco visível.
-// 4. Explica em voz alta o efeito de cada classe que adicionaste.
+//IMPORTS
+
+import UserGreeting from "./components/UserGreeting"
+
 export default function App() {
+  //LOGICA
+
+  const user = { primeiro: "Alberto", ultimo: "Menezes", id: "ID_OO1" }
 
   return (
+    //HTML
     <>
-      <h1>hello world</h1>
+      <UserGreeting user={user} />
+      <UserGreeting user={user} />
+      <UserGreeting user={user} />
+      <UserGreeting user={user} />
+      <UserGreeting user={user} />
+      <UserGreeting user={user} />
     </>
   )
 }
