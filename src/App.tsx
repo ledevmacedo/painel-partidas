@@ -19,6 +19,7 @@ export default function App() {
     <>
       <section className="flex flex-col gap-2">
         <UserGreeting user={user} />
+        <UserGreeting />
         <UserCard user={user} onSelect={(userId) => console.log(userId)} />
         <Soma a={10} b={3} />
       </section>
