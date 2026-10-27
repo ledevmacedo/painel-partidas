@@ -1,5 +1,6 @@
 //IMPORTS
 
+import Soma from "./components/soma"
 import UserGreeting from "./components/UserGreeting"
 
 export default function App() {
@@ -10,12 +11,12 @@ export default function App() {
   return (
     //HTML
     <>
-      <UserGreeting user={user} />
-      <UserGreeting user={user} />
-      <UserGreeting user={user} />
-      <UserGreeting user={user} />
-      <UserGreeting user={user} />
-      <UserGreeting user={user} />
+      <section className="flex flex-col gap-2">
+
+        <UserGreeting user={user} />
+        <Soma a={10} b={3} />
+        <Soma a={3} b={10} />
+      </section>
     </>
   )
 }
